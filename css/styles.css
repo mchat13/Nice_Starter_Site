@@ -68,7 +68,7 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px; 
+   
     border-radius: 10px;
 }
 
@@ -78,7 +78,8 @@ p {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #f05454b6; 
+    background: #f05454b6;
+}
 
 .top-container {
 
