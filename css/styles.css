@@ -1,59 +1,168 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    color:#F67280;
-    background: linear-gradient(#35477D, #717cb1);
+    font-family: 'Quicksand', sans-serif;
+    color: #DDDDDD;
+    background: linear-gradient(#222831, #374C81, #30475E);
+
 }
 
 
 h1 {
-    font-family: 'Faster One', cursive;
-    margin-top: 0;
-    
-}
+    font-family: 'Pacifico', cursive;
+    font-size: 5.52rem;
+    margin: 50px auto 0 auto;
+    color: #DDDDDD;
 
-.top-container {
-    
-    position: relative;
-    padding-top: 100px;
 
 }
+
+
 
 h2 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5rem;
+    color: #DDDDDD;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
 h3 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Press Start 2P', cursive;
+    color: #F05454;
+
+}
+
+a {
+
+    color: #F05454;
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #DDDDDD;
+}
+
+
+
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+    border-color: #DDDDDD;
+    border-width: 10px;
+    margin: 100px auto;
+    width: 4%;
+
+}
+
+p {
+    line-height: 2;
+}
+
+
+.top-container {
+
+
+    position: relative;
+    padding-top: 100px;
+
+
+
+
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
 }
 
 .middle-container {
+    margin: 100px 0;
 
-    background-color: #6C5B7B;
+
 }
+
+
+
 
 .bottom-container {
-    background-color: #C06C84;
 
-
+    padding: 50px 0 20px;
 }
+
 
 .top-cloud {
 
     position: absolute;
     right: 300px;
-    top: 50px;
-}
-
-.skyline {
-    width:100%
-
-
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
-    top: 150px;
+    left: 250px;
+    top: 200px;
+}
+
+.city {
+
+    width: 25%;
+}
+
+.hacker-girl {
+
+    width: 25%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+
+
+}
+
+.coding {
+
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.tools {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-message {
+
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color:#DDDDDD;
+    font-size:0.75rem;
+    padding:20px 0;
+}
+
+.contact-button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 40px;
+    color: #DDDDDD;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30;
+    font-weight: 600;
+    padding: 40px;
+    background-color: #F05454;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
 }
